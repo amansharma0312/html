@@ -55,6 +55,37 @@ input[type]{
     background-color: aliceblue;
 }
 
-/* #myId > p{
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+button:active{
+    background-color: blueviolet;
+}
+
+p:active{
     color: green;
-} */
+    font-weight: 600;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: 600;
+}
+
+div:nth-of-type(2n){
+    background-color: antiquewhite;
+}
+
+h1::first-letter{
+    color: chocolate;
+}
+
+p::selection{
+    background-color: lemonchiffon;
+}
